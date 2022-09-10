@@ -1,1 +1,27 @@
-/* start */
+:root {
+
+}
+/* main color #212121 */
+/* secondary color #757575 */
+/* active color #2196F3 */
+/* active second color #FFFFFF */
+
+/* Header */
+.logo {
+    color: #2196F3;
+}
+.logo-part {
+    color: black;
+}
+.nav-item {
+    color: #212121;
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: #2196F3;
+}
+
+/* body */
+
+
+/* footer */
