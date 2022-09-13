@@ -2,7 +2,7 @@
 /* secondary color #757575 */
 /* active color #2196F3 */
 /* active second color #FFFFFF */
-
+/* --footer-bg-color: #2F303A; */
 :root {
     --text-color-primary: #212121;
     --text-color-secondary: #757575;
@@ -18,7 +18,7 @@ body {
 
     color: var(--text-color-primary);
 }
-/* Header */
+/* ----------------Header---------------- */
 .logo {
     text-decoration: none;
     color: var(--logo-color-primary);
@@ -59,10 +59,92 @@ body {
     text-decoration: none;
     color: var(--text-color-secondary);
 }
-/* main */
 
+/* ----------------main-------------------- */
+.hero {
+    background-color: var(--footer-bg-color);
+}
 
-/* footer */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--footer-color-text-secondary);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    background-color: var(--text-color-accent);
+    color: var(--footer-color-text-secondary);
+}
+
+/* section about */
+
+.about {
+    list-style-type: none;
+}
+.about-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color-secondary);
+}
+/* section about work */
+.work-title,
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.work-item {
+        list-style-type: none;
+}
+
+/* section team */
+
+.team-card {
+    list-style-type: none;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color-secondary);
+}
+
+/* ----------------footer-------------------- */
 .basement {
     background-color: var(--footer-bg-color);
 }
