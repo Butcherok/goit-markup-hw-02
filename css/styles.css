@@ -12,20 +12,22 @@
     --footer-color-text-primary:rgba(255, 255, 255, 0.6);;
     --footer-color-text-secondary: #ffffff;
     --footer-bg-color: #2F303A;
-    font-family: 'Roboto';
 }
+body {
+    font-family: 'Roboto', sans-serif;
 
+    color: var(--text-color-primary);
+}
 /* Header */
 .logo {
     text-decoration: none;
     color: var(--logo-color-primary);
 
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
         
 }
 .logo-part {
@@ -35,7 +37,6 @@
 .contact-item {
     list-style: none;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -58,28 +59,27 @@
     text-decoration: none;
     color: var(--text-color-secondary);
 }
-/* body */
+/* main */
 
 
 /* footer */
-.footer {
+.basement {
     background-color: var(--footer-bg-color);
 }
-.logo-footer {
+.logo-bsmt {
     text-decoration: none;
     color: var(--logo-color-primary);
 
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.logo-footer-part {
+.logo-bsmt-part {
     color: var(--footer-color-text-secondary);
 }
-.footer-list {
+.bsmt-list {
     list-style: none;
     
     font-style: normal;
@@ -88,10 +88,10 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.address {
+.adds {
     color: var(--footer-color-text-secondary);
 }
-.footer-item {
+.bsmt-item {
     text-decoration: none;
     color: var(--footer-color-text-primary);
 }
