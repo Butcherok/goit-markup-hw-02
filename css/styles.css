@@ -45,7 +45,9 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.bsmt-item:hover,
+.bsmt-item:focus {
     color: var(--text-color-accent);
 }
 .nav-link {
@@ -84,6 +86,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
     background-color: var(--text-color-accent);
     color: var(--footer-color-text-secondary);
@@ -199,6 +202,7 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .gallery-item {
