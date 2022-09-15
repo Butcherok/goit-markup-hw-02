@@ -7,23 +7,22 @@
     --text-color-primary: #212121;
     --text-color-secondary: #757575;
     --text-color-accent: #2196F3;
-    --logo-color-primary: #2196F3;
     --logo-color-secondary: black;
-    --footer-color-text-primary:rgba(255, 255, 255, 0.6);;
+    --footer-color-text-primary:rgba(255, 255, 255, 0.6);
     --footer-color-text-secondary: #ffffff;
     --footer-bg-color: #2F303A;
 }
 body {
     font-family: 'Roboto', sans-serif;
-
+    font-size: 14px;
     color: var(--text-color-primary);
 }
 /* ----------------Header---------------- */
 .logo {
     text-decoration: none;
-    color: var(--logo-color-primary);
+    color: var(--text-color-accent);
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -79,12 +78,10 @@ body {
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
 
@@ -153,7 +150,7 @@ body {
 }
 .logo-bsmt {
     text-decoration: none;
-    color: var(--logo-color-primary);
+    color: var(--text-color-accent);
 
     font-family: 'Raleway';
     font-weight: 700;
@@ -197,10 +194,10 @@ body {
 .btn-text {
     background-color: #F5F4FA;
     
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
 }
